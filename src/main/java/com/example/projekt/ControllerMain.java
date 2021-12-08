@@ -96,8 +96,6 @@ public class ControllerMain {
     }
 
     private void pow() {
-        System.out.println("n: ");
-        System.out.println(n);
         double r = Math.pow(Math.hypot(r1, i1), n);
         double phi = n * ((Math.PI / 2 - Math.atan2(r1, i1)) % (Math.PI * 2));
         result.setText(Math.floor((Math.cos(phi) * r)) + " " + Math.floor((Math.sin(phi) * r)) + "i");

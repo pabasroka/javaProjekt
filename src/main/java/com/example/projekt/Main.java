@@ -15,7 +15,6 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("view.fxml"));
         Scene scene = new Scene(loader.load());
-
         stage.setTitle("Kalkulator liczb zespolonych");
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.setResizable(false);
