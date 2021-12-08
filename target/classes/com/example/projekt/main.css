@@ -12,3 +12,11 @@
     -fx-background-color: #00000025;
     -fx-background-radius: 15;
 }
+
+.text-field {
+    -fx-background-color: #f8f8f8;
+    -fx-border-color: rgba(0, 0, 0, 0.63);
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 15;
+}
